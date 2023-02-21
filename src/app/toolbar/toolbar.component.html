@@ -1,57 +1,91 @@
 <div class="toolbarTop"></div>
 
 <mat-toolbar class="toolbar">
-    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+
+  <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>menu</mat-icon>
     </button> -->
 
-    <img class="logo" src="../../assets/images/logo.jpg" alt="" height="50px">
+  <img class="logo" src="../../assets/images/logo.jpg" alt="" height="50px">
 
-    <span class="example-spacer"></span>
+  <span class="example-spacer"></span>
 
-    <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
-      <span>高山茗品</span>
-      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
+  <div class="menu">
 
-    <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
-      <span>紅茶系列</span>
-      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
+    <div class="menu-left">
+      <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
+        <span>高山茗品</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
 
-    <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
-      <span>超值組合</span>
-      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
+      <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
+        <span>紅茶系列</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
 
-    <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
-      <span>茶葉禮盒</span>
-      <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
-    </button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
+      <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
+        <span>超值組合</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
 
-    <button mat-button [matMenuTriggerFor]="menu">台灣茶包</button>
-    <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
-    </mat-menu>
+      <button class="menu-button" mat-button [matMenuTriggerFor]="menu">
+        <span>茶葉禮盒</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="arrow_drop_down"></mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+      <button mat-button [matMenuTriggerFor]="menu">台灣茶包</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+    </div>
 
 
+    <div class="menu-right">
+      <button mat-button [matMenuTriggerFor]="lang">
+        <span>繁體中文</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="public"></mat-icon>
+      </button>
+      <mat-menu #lang="matMenu">
+        <button mat-menu-item>English</button>
+        <button mat-menu-item>简体中文</button>
+      </mat-menu>
+      <button mat-button [matMenuTriggerFor]="currency">
+        <span>TWD</span>
+        <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="attach_money"></mat-icon>
+      </button>
+      <mat-menu #currency="matMenu">
+        <button mat-menu-item>JPY</button>
+        <button mat-menu-item>USD</button>
+      </mat-menu>
+
+      
+
+      <mat-icon class="menu-icon" aria-hidden="false" aria-label="Example home icon" fontIcon="speaker_notes"></mat-icon>
+      <mat-icon class="menu-icon"aria-hidden="false" aria-label="Example home icon" fontIcon="account_circle"></mat-icon>
+      <mat-icon class="menu-icon" aria-hidden="false" aria-label="Example home icon" fontIcon="search"></mat-icon>
+      <mat-icon class="menu-icon" aria-hidden="false" aria-label="Example home icon" fontIcon="shopping_cart"></mat-icon>
 
 
-  </mat-toolbar>
+    </div>
+
+  </div>
+
+
+</mat-toolbar>
