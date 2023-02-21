@@ -1,0 +1,23 @@
+.toolbarTop {
+  height: 30px;
+  background-color: #41B240;
+}
+
+.toolbar {
+  background-color: #FFFFFF;
+  color: #41B240;
+  height: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  margin: 20px;
+}
+
+
+.menu-button {
+  display: flex;
+  flex-direction: row-reverse;
+}
