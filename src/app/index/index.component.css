@@ -1,4 +1,4 @@
-.test {
-    height: 50vh;
-    background-color: grey;
-}
+/* Force slider image to stretch*/
+::ng-deep .ng-image-slider-container>.main {
+    height: 33vw !important;
+  }

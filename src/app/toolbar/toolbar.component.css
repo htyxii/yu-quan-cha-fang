@@ -1,4 +1,4 @@
-.toolbarTop {
+.toolbar-top-block {
   height: 30px;
   background-color: #41B240;
 }
@@ -9,6 +9,7 @@
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -19,6 +20,8 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  /* temporary */
+  overflow: hidden;
 }
 
 .menu-left, .menu-right {
