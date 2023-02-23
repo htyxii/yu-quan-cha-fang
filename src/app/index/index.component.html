@@ -1,3 +1,31 @@
 <!-- Slider -->
-<ng-image-slider [images]="imageObject" [manageImageRatio]="true" [autoSlide]="{interval: 3, stopOnHover: true}"
-    [imageSize]="{width: '100%', space: 1}" [infinite]="true" #nav></ng-image-slider>
+<div class="banner-slider">
+    <ng-image-slider [images]="banner" [manageImageRatio]="true" [autoSlide]="{interval: 5, stopOnHover: true}"
+        [imageSize]="{width: '100%', space: 1}" [infinite]="true" #nav></ng-image-slider>
+</div>
+
+<div class="section">
+    <div class="section-title">關於我們</div>
+    <div class="section-content">郁湶茶坊自 1995 年開業至今，於阿里山有屬於自己的茶園，憑藉超過 25 年製茶經驗，只產生 100% 純正好茶，我們的宗旨是希望任何人都能以親民價格品嘗到真正台灣好茶。
+    </div>
+</div>
+
+<mat-divider class="section-divider"></mat-divider>
+
+<div class="section">
+    <div class="section-title">熱賣商品</div>
+    <div class="best-sellers-slider">
+        <ng-image-slider [images]="bestSeller" [slideImage]="1" [manageImageRatio]="true"
+            [imageSize]="{width: 300, space: 25}" [infinite]="true" #nav></ng-image-slider>
+    </div>
+</div>
+
+<mat-divider class="section-divider"></mat-divider>
+
+<div class="section">
+    <div class="section-title">茶葉禮盒</div>
+    <div class="best-sellers-slider">
+        <ng-image-slider [images]="teaGiftBox" [slideImage]="1" [manageImageRatio]="true"
+            [imageSize]="{width: '700vw', space: 25}" [infinite]="true" #nav></ng-image-slider>
+    </div>
+</div>

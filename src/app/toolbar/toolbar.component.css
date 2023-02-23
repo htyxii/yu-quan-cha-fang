@@ -1,15 +1,22 @@
 .toolbar-top-block {
-  height: 30px;
+  height: 90px;
   background-color: #41B240;
 }
 
 .toolbar {
   background-color: #FFFFFF;
-  height: auto;
-  position: sticky;
+  height: 90px;
+  position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 9;
+  /* position: sticky; */
+  /* position: -webkit-sticky; */
+  /* For macOS/iOS Safari */
+  /* top: 0; */
+  /* Sets the sticky toolbar to be on top */
+  /* z-index: 1000; */
+  /* Ensure that your app's content doesn't overlap the toolbar */
 }
 
 .logo {

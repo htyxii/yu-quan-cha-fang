@@ -1,4 +1,27 @@
 /* Force slider image to stretch*/
-::ng-deep .ng-image-slider-container>.main {
+::ng-deep .banner-slider .ng-image-slider-container>.main,
+::ng-deep .banner-slider .ng-image-slider {
     height: 33vw !important;
-  }
+}
+
+.section {
+    margin: 2em 2em;
+}
+
+.section-title {
+    color: #41B240;
+    text-align: center;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+.section-content {
+    text-align: center;
+    color: #434343;
+}
+
+.section-divider {
+    border-top-color: rgba(0,0,0,.12);
+    width: 15vw;
+    margin: auto;
+}
