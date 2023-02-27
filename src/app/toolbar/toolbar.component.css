@@ -4,7 +4,7 @@
 }
 
 .toolbar {
-  background-color: #FFFFFF;
+  background-color: #E2F0D9;
   height: 90px;
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@
 }
 
 .menu-left {
-  color: #41B240;
+  color: #357550;
 }
 
 .menu-right {
@@ -47,6 +47,8 @@
 .menu-button {
   display: flex;
   flex-direction: row-reverse;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .menu-icon {

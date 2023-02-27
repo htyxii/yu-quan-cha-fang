@@ -12,6 +12,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
@@ -32,6 +33,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
+    MatInputModule,
     MatMenuModule,
     MatToolbarModule,
     NgImageSliderModule

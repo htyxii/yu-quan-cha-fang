@@ -1,14 +1,33 @@
+<div class="banner">
+    <div class="banner-title">郁湶茶坊</div>
+    <div class="banner-content">郁湶茶坊自 1995 年開業至今，於阿里山有屬於自己的茶園，
+        <br>
+        憑藉超過 25 年製茶經驗，只產生 100% 純正好茶。
+        <br>
+        我們的宗旨是希望任何人都能以親民價格品嘗到真正的台灣好茶。
+    </div>
+    <!-- <img src="./assets/images/banner_0.png" width="100%" alt=""> -->
+
+    <div class="banner-search">
+        <mat-form-field class="search-input">
+            <input matInput>
+        </mat-form-field>
+        <button mat-raised-button class="search-button">搜尋</button>
+    </div>
+    <button mat-raised-button class="all-product-button">查看全部商品</button>
+</div>
+
 <!-- Slider -->
 <div class="banner-slider">
     <ng-image-slider [images]="banner" [manageImageRatio]="true" [autoSlide]="{interval: 5, stopOnHover: true}"
         [imageSize]="{width: '100%', space: 1}" [infinite]="true" #nav></ng-image-slider>
 </div>
 
-<div class="section">
+<!-- <div class="section">
     <div class="section-title">關於我們</div>
     <div class="section-content">郁湶茶坊自 1995 年開業至今，於阿里山有屬於自己的茶園，憑藉超過 25 年製茶經驗，只產生 100% 純正好茶，我們的宗旨是希望任何人都能以親民價格品嘗到真正台灣好茶。
     </div>
-</div>
+</div> -->
 
 <mat-divider class="section-divider"></mat-divider>
 

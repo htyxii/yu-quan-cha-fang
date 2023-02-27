@@ -25,3 +25,56 @@
     width: 15vw;
     margin: auto;
 }
+
+.banner {
+    background-image: url("../../assets/images/banner_0.png");
+    height: 42vw;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+}
+
+.banner-title {
+    color: #357550;
+    font-weight: 700;
+    font-size: 40px;
+    /* margin-bottom: 20px; */
+    padding-top: 5%;
+    padding-left: 40px;
+}
+
+.banner-content {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.search-input input {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.banner-search {
+    padding-left: 40px;
+    display: flex;
+}
+
+.search-input {
+    height: 58px;
+    margin-right: 8px;
+    color: #000000;
+}
+
+::ng-deep .search-input .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+    background-color: #FFFFFF !important;
+    display: flex;
+    align-items: center;
+}
+
+.search-button, .all-product-button {
+    background-color: #558136;
+}
+
+.all-product-button {
+    margin-left: 40px;
+}
